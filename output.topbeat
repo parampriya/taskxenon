@@ -1,0 +1,364 @@
+{
+  "took" : 141,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 5,
+    "successful" : 5,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 51046,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "topbeat-2016.04.19",
+      "_type" : "process",
+      "_id" : "AVQuEDSFmQkCSZuePI6K",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-19T10:27:57.263Z",
+        "beat" : {
+          "hostname" : "priya-Inspiron-3542",
+          "name" : "priya-Inspiron-3542"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "/usr/lib/at-spi2-core/at-spi-bus-launcher --launch-immediately",
+          "cpu" : {
+            "user" : 0,
+            "user_p" : 0,
+            "system" : 0,
+            "total" : 0,
+            "start_time" : "11:44"
+          },
+          "mem" : {
+            "size" : 345698304,
+            "rss" : 7933952,
+            "rss_p" : 0,
+            "share" : 5337088
+          },
+          "name" : "at-spi-bus-laun",
+          "pid" : 1814,
+          "ppid" : 1638,
+          "state" : "sleeping",
+          "username" : "priya"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.19",
+      "_type" : "process",
+      "_id" : "AVQuEDSFmQkCSZuePI6M",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-19T10:27:57.265Z",
+        "beat" : {
+          "hostname" : "priya-Inspiron-3542",
+          "name" : "priya-Inspiron-3542"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "/bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3",
+          "cpu" : {
+            "user" : 400,
+            "user_p" : 0,
+            "system" : 100,
+            "total" : 500,
+            "start_time" : "11:44"
+          },
+          "mem" : {
+            "size" : 40329216,
+            "rss" : 3489792,
+            "rss_p" : 0,
+            "share" : 2932736
+          },
+          "name" : "dbus-daemon",
+          "pid" : 1820,
+          "ppid" : 1814,
+          "state" : "sleeping",
+          "username" : "priya"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.19",
+      "_type" : "process",
+      "_id" : "AVQuEDSFmQkCSZuePI6O",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-19T10:27:57.267Z",
+        "beat" : {
+          "hostname" : "priya-Inspiron-3542",
+          "name" : "priya-Inspiron-3542"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "/usr/lib/ibus/ibus-x11 --kill-daemon",
+          "cpu" : {
+            "user" : 20,
+            "user_p" : 0,
+            "system" : 10,
+            "total" : 30,
+            "start_time" : "11:44"
+          },
+          "mem" : {
+            "size" : 396144640,
+            "rss" : 12578816,
+            "rss_p" : 0,
+            "share" : 10915840
+          },
+          "name" : "ibus-x11",
+          "pid" : 1827,
+          "ppid" : 1638,
+          "state" : "sleeping",
+          "username" : "priya"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.19",
+      "_type" : "process",
+      "_id" : "AVQuEDSFmQkCSZuePI6b",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-19T10:27:57.275Z",
+        "beat" : {
+          "hostname" : "priya-Inspiron-3542",
+          "name" : "priya-Inspiron-3542"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "/usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service",
+          "cpu" : {
+            "user" : 1350,
+            "user_p" : 2.0E-4,
+            "system" : 280,
+            "total" : 1630,
+            "start_time" : "11:44"
+          },
+          "mem" : {
+            "size" : 285143040,
+            "rss" : 6111232,
+            "rss_p" : 0,
+            "share" : 5398528
+          },
+          "name" : "indicator-power",
+          "pid" : 1917,
+          "ppid" : 1638,
+          "state" : "sleeping",
+          "username" : "priya"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.19",
+      "_type" : "process",
+      "_id" : "AVQuEDSGmQkCSZuePI6g",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-19T10:27:57.284Z",
+        "beat" : {
+          "hostname" : "priya-Inspiron-3542",
+          "name" : "priya-Inspiron-3542"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "/usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service",
+          "cpu" : {
+            "user" : 410,
+            "user_p" : 0,
+            "system" : 80,
+            "total" : 490,
+            "start_time" : "11:44"
+          },
+          "mem" : {
+            "size" : 369139712,
+            "rss" : 8450048,
+            "rss_p" : 0,
+            "share" : 7376896
+          },
+          "name" : "indicator-appli",
+          "pid" : 1951,
+          "ppid" : 1638,
+          "state" : "sleeping",
+          "username" : "priya"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.19",
+      "_type" : "process",
+      "_id" : "AVQuEDSGmQkCSZuePI6h",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-19T10:27:57.285Z",
+        "beat" : {
+          "hostname" : "priya-Inspiron-3542",
+          "name" : "priya-Inspiron-3542"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "/usr/lib/evolution/evolution-source-registry",
+          "cpu" : {
+            "user" : 40,
+            "user_p" : 0,
+            "system" : 10,
+            "total" : 50,
+            "start_time" : "11:44"
+          },
+          "mem" : {
+            "size" : 584773632,
+            "rss" : 13639680,
+            "rss_p" : 0,
+            "share" : 10833920
+          },
+          "name" : "evolution-sourc",
+          "pid" : 1973,
+          "ppid" : 1638,
+          "state" : "sleeping",
+          "username" : "priya"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.19",
+      "_type" : "process",
+      "_id" : "AVQuEDSGmQkCSZuePI6i",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-19T10:27:57.286Z",
+        "beat" : {
+          "hostname" : "priya-Inspiron-3542",
+          "name" : "priya-Inspiron-3542"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "/usr/lib/x86_64-linux-gnu/notify-osd",
+          "cpu" : {
+            "user" : 2580,
+            "user_p" : 2.0E-4,
+            "system" : 1020,
+            "total" : 3600,
+            "start_time" : "11:44"
+          },
+          "mem" : {
+            "size" : 440782848,
+            "rss" : 27963392,
+            "rss_p" : 0.01,
+            "share" : 22704128
+          },
+          "name" : "notify-osd",
+          "pid" : 1978,
+          "ppid" : 1638,
+          "state" : "sleeping",
+          "username" : "priya"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.19",
+      "_type" : "process",
+      "_id" : "AVQuEDSGmQkCSZuePI6l",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-19T10:28:06.692Z",
+        "beat" : {
+          "hostname" : "priya-Inspiron-3542",
+          "name" : "priya-Inspiron-3542"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "nm-applet",
+          "cpu" : {
+            "user" : 2040,
+            "user_p" : 0,
+            "system" : 150,
+            "total" : 2190,
+            "start_time" : "11:44"
+          },
+          "mem" : {
+            "size" : 614383616,
+            "rss" : 29184000,
+            "rss_p" : 0.01,
+            "share" : 22593536
+          },
+          "name" : "nm-applet",
+          "pid" : 2002,
+          "ppid" : 1815,
+          "state" : "sleeping",
+          "username" : "priya"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.19",
+      "_type" : "process",
+      "_id" : "AVQuEDSGmQkCSZuePI6o",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-19T10:28:06.695Z",
+        "beat" : {
+          "hostname" : "priya-Inspiron-3542",
+          "name" : "priya-Inspiron-3542"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "/usr/lib/x86_64-linux-gnu/gconf/gconfd-2",
+          "cpu" : {
+            "user" : 50,
+            "user_p" : 0,
+            "system" : 0,
+            "total" : 50,
+            "start_time" : "11:44"
+          },
+          "mem" : {
+            "size" : 59551744,
+            "rss" : 6500352,
+            "rss_p" : 0,
+            "share" : 4870144
+          },
+          "name" : "gconfd-2",
+          "pid" : 2017,
+          "ppid" : 1638,
+          "state" : "sleeping",
+          "username" : "priya"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.19",
+      "_type" : "process",
+      "_id" : "AVQuEDSGmQkCSZuePI6q",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-19T10:28:06.696Z",
+        "beat" : {
+          "hostname" : "priya-Inspiron-3542",
+          "name" : "priya-Inspiron-3542"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "/usr/lib/gvfs/gvfs-mtp-volume-monitor",
+          "cpu" : {
+            "user" : 10,
+            "user_p" : 0,
+            "system" : 0,
+            "total" : 10,
+            "start_time" : "11:44"
+          },
+          "mem" : {
+            "size" : 205086720,
+            "rss" : 5349376,
+            "rss_p" : 0,
+            "share" : 4792320
+          },
+          "name" : "gvfs-mtp-volume",
+          "pid" : 2036,
+          "ppid" : 1638,
+          "state" : "sleeping",
+          "username" : "priya"
+        },
+        "type" : "process"
+      }
+    } ]
+  }
+}
